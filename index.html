@@ -6,7 +6,7 @@
 </head>
 <body> <div class="top"><img class="header" src="header.png" /></div>
 <div class="content">
-    <h1>In-Room Dining</h1>
+    <h1>FOOD MENU</h1>
     <div class="grid">
 
 
@@ -185,7 +185,12 @@
 
 <div class="bigoverlay" id="infoOverlay5">
   <div class="big-popup">
+<div class="options-head">
+<model-viewer class="model" src="burger_model.glb" alt="" auto-rotate camera-controls></model-viewer>
   <button class="big-button" onclick="hideInfo('infoOverlay4')">&times</button>
+</div>
+<div class="options">
+</div>
   </div>
   </div>
 
@@ -195,4 +200,6 @@
 </body>
 
 <script src="script.js"></script>
+<script type="module" src="https://www.unpkg.com/@google/model-viewer@0.6.2/dist/model-viewer-legacy.js"></script>
+<script nomodule src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
 </html>
