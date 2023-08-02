@@ -582,7 +582,7 @@ h1 {
 position: absolute;
 top: 0;
 left: 0;
-transform: translate(20%, 0%);
+transform: translate(0%, -10%);
 display: inline-flex;
 z-index: 99999;
 width: 400px;
