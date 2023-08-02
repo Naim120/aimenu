@@ -509,7 +509,7 @@ h1 {
   width: 90%;
   height: 80vh;
   transform: translate(5%, 5%);
-  background-color: background: linear-gradient(90deg, #dc93a3 80%, #e8c1c9 20%);
+  background: linear-gradient(90deg, #dc93a3 80%, #e8c1c9 20%);
   border-radius: 22px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
