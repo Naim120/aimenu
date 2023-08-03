@@ -70,13 +70,17 @@ h1 {
   grid-gap: min(6vw, 95px);
 }
 
+.item-holder {
+    display: inline-flex;
+    width: fit-content;
+}
 .item {
     position: relative;
     display: inline-block;
-    margin: 10px;
+    margin: 0;
     margin-top: 50px;
-    width: 290px;
-    height: 318px;
+    width: 50%;
+    height: 152px;
     flex-shrink: 0;
     border-radius: 22px;
     background: #FF9E64;
@@ -89,8 +93,8 @@ h1 {
 .item::before {
     content: "";
     display: inline-flex;
-    width: 290px;
-    height: 318px;
+    width: 50%;
+    height: 152px;
     flex-shrink: 0;
     border-radius: 22px;
     /*mix-blend-mode: color-burn;
