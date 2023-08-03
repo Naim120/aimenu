@@ -583,6 +583,6 @@ left: 0;
 transform: translate(-10%, -30%);
 display: inline-flex;
 z-index: 99999;
-width: 400px;
-height: 400px;
+width: 800px;
+height: 800px;
 }
